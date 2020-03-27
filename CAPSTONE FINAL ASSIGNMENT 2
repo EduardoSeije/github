@@ -1,0 +1,102 @@
+{
+    "cells": [
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "<font size=\"5\"> Capstone Project - The Battle of Neighbourhoods "
+        },
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "<font size=\"4\"> 01) Introduction to the Business Problem "
+        },
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "Toronto demographics show that it is a large and etrhnically diverse city. One of the biggest cities in Canada with a huge number of international immigration. Over the years Toronto has been growing faster and the opportunities for business are following the fast growth. \n\nToronto have almost 3 millions immigrants that live and work in the city, wherre the overwhelming majority are from India, China, Philippines, Pakistan and a few countries from Europe. \n\nWith its diverse culture, comes diverse food items and varieties, and business opportunities in this area are quite interesting."
+        },
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "<font size=\"4\"> Business Problems:\n"
+        },
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "1) What is the best restaurant type for Toronto?"
+        },
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "2) What is the best area for this restaurant?"
+        },
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "3) How many simmilar restaurats do we have in Toronto?"
+        },
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "4) List and visualize all major parts of Toronto that have chinese restaurants."
+        },
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "<font size=\"4\"> Data:"
+        },
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "Used a data set of zipcode and neighborhood with latitude and longitude from multiple online sources, including Wikipedia link provided at the last assignment."
+        },
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "<font size=\"4\"> Methodology:"
+        },
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "Used the skills learned through the course relied on Foursquare API to retrieve all venues of each neighborhoods and work with the data provided. "
+        },
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "<font size='4'> Results:"
+        },
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "1) Based on the information that the Wikipedia(https://en.wikipedia.org/wiki/Demographics_of_Toronto#City_of_Toronto) it is possible to see that the first ethinic origin in the city of Toronto is Chinese, with 332,830 population number, also the data provided show's that Scarborough is the neighborhood wih the higher number of chinese immigrants. On the other hand, with the information obtained with the data analisys from https://en.wikipedia.org/w/index.php?title=List_of_postal_codes_of_Canada:_M&oldid=945633050. and Foursquare, it is possible to see that Scarborough do not have many chinese restaurants, so we conclude that chinese food restaurant will be the best option of business. \n\n2) Analyzing the data obtained from Wikipedia and Foursquare it is possible to conclude that the best area to open a new chinese food restaurant is Scarborough neighborhood, because it is where we have the higher number of chinese immigrants and have a few number of simmilar restaurants. \n\n3) Using the Foursquare API, the data provide the information that Toronto have 172 chinese restaurants and no one is locatade in Scarborough, that is the reason that the best business option is starting a chinese restaurant in this neighborhood. \n\n4) The result of the data analisys, provided the result of 172 chinese restaurants in different neighborhoods and it is possible tho check this information on the table and map at the end of the notebook link. "
+        },
+        {
+            "metadata": {},
+            "cell_type": "code",
+            "source": "",
+            "execution_count": null,
+            "outputs": []
+        }
+    ],
+    "metadata": {
+        "kernelspec": {
+            "name": "python3",
+            "display_name": "Python 3.6",
+            "language": "python"
+        },
+        "language_info": {
+            "name": "python",
+            "version": "3.6.9",
+            "mimetype": "text/x-python",
+            "codemirror_mode": {
+                "name": "ipython",
+                "version": 3
+            },
+            "pygments_lexer": "ipython3",
+            "nbconvert_exporter": "python",
+            "file_extension": ".py"
+        }
+    },
+    "nbformat": 4,
+    "nbformat_minor": 1
+}
